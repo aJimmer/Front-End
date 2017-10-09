@@ -19,7 +19,7 @@
   RemoteDataStore.prototype.getAll = function(cb) {
     $.get(this.serverUrl, function(serverResponse) {
       console.log(serverResponse);
-      cp(serverResponse);
+      cb(serverResponse);
     });
   };
 

@@ -1,6 +1,6 @@
 (function(window) {
-  'use strict'
-  var app = window.App || {};
+  'use strict';
+  var App = window.App || {};
 
   function Truck(truckId, db) {
     this.truckId = truckId;
